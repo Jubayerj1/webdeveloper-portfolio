@@ -8,6 +8,7 @@ nav {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin: 0 200px;
 }
 
 .btn-primery {
@@ -43,4 +44,11 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+/* header relate style */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30PX 30PX 30PX 150PX;
 }
