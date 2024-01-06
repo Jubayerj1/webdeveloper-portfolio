@@ -1,14 +1,18 @@
 /* common shared styles */
-/* nav related styles */
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
+/* nav related styles */
 nav {
     display: flex;
     justify-content: space-between;
     text-align: center;
     margin: 0 200px;
+}
+.nav-title {
+    olor: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
 }
 
 .btn-primery {
@@ -21,11 +25,7 @@ nav {
     padding: 18px 36px;
 }
 
-.nav-title {
-    olor: var(--Dark-01, #181818);
-    font-size: 45px;
-    font-weight: 800;
-}
+
 
 .text-primery {
     color: #FD6E0A;
@@ -51,4 +51,9 @@ nav a {
 }
 .banner{
     padding: 30PX 30PX 30PX 150PX;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
 }
