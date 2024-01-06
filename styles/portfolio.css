@@ -101,11 +101,12 @@ nav a {
 }
 
 /* main sectsion */
-}
+
 main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
 
 /* about section styles */
 .about {
@@ -120,4 +121,8 @@ main{
 }
 .about-info{
     text-align: center;
+
+}
+#what-i-do-describtion{
+    padding: 20px 150px;
 }
