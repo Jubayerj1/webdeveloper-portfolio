@@ -35,7 +35,7 @@ nav {
 }
 
 .banner-discribtion {
-    color:#757575);
+    color: #757575);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -102,7 +102,7 @@ nav a {
 
 /* main sectsion */
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -115,14 +115,37 @@ main{
     background: #FFF8F3;
     margin: 130px 0;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
+    /* skill related style */
+
 
 }
-#what-i-do-describtion{
+
+#what-i-do-describtion {
     padding: 20px 150px;
+}
+
+.skills-container {
+    display: flex;
+}
+
+.skill {
+    padding: 30px;
+    gap: 24px;
+}
+
+.skill-describtion {}
+
+/* resume section title */
+.resume-coluamn-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
